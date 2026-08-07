@@ -1,3 +1,5 @@
+"""Compute technical indicators (MACD, Bollinger Bands, RSI) on OHLCV data for model features."""
+
 from numpy import array
 import numpy as np
 import pandas as pd

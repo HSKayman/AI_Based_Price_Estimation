@@ -1,3 +1,5 @@
+"""Experimental/test harness for the virtual trading bot and indicator-driven LSTM signals."""
+
 from numpy import array
 import tensorflow as tf
 from keras.models import Sequential

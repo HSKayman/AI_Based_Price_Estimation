@@ -14,3 +14,22 @@ This project is at the intersection of artificial intelligence, financial analys
 ### Results
 
 Alpha testing of our model demonstrated an 88.7% average accuracy in price prediction. This significant level of accuracy underscores the effectiveness of combining LSTM with econometric indicators and sentiment analysis for cryptocurrency price forecasting.
+
+## Repository Structure
+
+| Path | Description |
+|------|-------------|
+| `Reguler Code/` | Production-style pipeline: Binance download helpers, indicator computation, LSTM trainer, virtual trading bots |
+| `Reguler Code/Scrapt_Coin_Price/` | Binance Vision downloaders for klines, trades, and aggTrades |
+| `ShortTime/` | Short-horizon LSTM + RSI experiments and CSV export scripts |
+| `Attempt to RealTime/` | Notebooks exploring nearer-to-real-time LSTM forecasting |
+| `Archive/PA1`–`PA3` | Earlier assignment/iteration notebooks (LSTM, CHZ, sentiment-augmented LSTMv2) |
+| `BiL4009-Rapor.pdf`, `Poster.pdf`, `Sunum.pptx` | Project report, poster, and presentation |
+
+## Typical Workflow (`Reguler Code/`)
+
+1. Download klines via `Scrapt_Coin_Price/` or `main.py`
+2. Merge/convert with `Conventer.py`
+3. Compute indicators with `Indicators.py`
+4. Train LSTMs with `Trainer.py` (batch via `Trainer-main.py` + `config.json`)
+5. Simulate trading with `VirtualBot_Dynmc.py` / `VirtualBot_DynmcTime.py`

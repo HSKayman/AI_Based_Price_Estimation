@@ -1,3 +1,4 @@
+"""Train multivariate LSTM models on indicator-augmented crypto price sequences and evaluate forecasts."""
 
 from numpy import array
 import tensorflow as tf

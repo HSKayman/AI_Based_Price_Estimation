@@ -1,3 +1,5 @@
+"""Scratch/test script for loading models and validating virtual-bot trading logic."""
+
 from numpy import array
 import tensorflow as tf
 from keras.models import Sequential

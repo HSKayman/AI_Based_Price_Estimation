@@ -1,3 +1,5 @@
+"""Time-aware variant of the virtual trading bot using LSTM signals and technical indicators."""
+
 from numpy import array
 import tensorflow as tf
 from keras.models import Sequential

@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  9 08:54:37 2022
-
-@author: shoujakymn
-"""
+"""Short-horizon LSTM price forecasting using RSI features on 30-minute crypto candles."""
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-

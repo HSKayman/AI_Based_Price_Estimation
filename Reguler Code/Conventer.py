@@ -1,3 +1,4 @@
+"""Merge monthly/daily Binance kline ZIPs for a coin/interval into a cleaned OHLCV time-indexed CSV."""
 
 import numpy as np
 import pandas as pd

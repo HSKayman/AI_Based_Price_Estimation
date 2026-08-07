@@ -1,3 +1,5 @@
+"""CLI entry point to download/convert Binance kline data for a given coin and timeframe."""
+
 import argparse
 import os
 

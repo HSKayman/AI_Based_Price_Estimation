@@ -1,3 +1,5 @@
+"""Orchestrates download → indicator computation → LSTM training over coins/intervals from config.json."""
+
 import json
 import os
 def load_config():

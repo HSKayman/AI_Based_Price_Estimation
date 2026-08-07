@@ -1,3 +1,5 @@
+"""Shared constants for Binance Vision downloads (years, intervals, trading types, date bounds)."""
+
 from datetime import *
 
 YEARS = ['2017', '2018', '2019', '2020', '2021', '2022']

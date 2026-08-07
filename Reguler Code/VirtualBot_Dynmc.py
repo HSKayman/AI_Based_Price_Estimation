@@ -1,3 +1,5 @@
+"""Paper-trading bot that loads LSTM models and places simulated trades from live/recent market signals."""
+
 from numpy import array
 import tensorflow as tf
 from keras.models import Sequential

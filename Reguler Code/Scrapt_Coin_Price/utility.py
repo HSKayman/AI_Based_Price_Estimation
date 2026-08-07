@@ -1,3 +1,5 @@
+"""Helpers for Binance Vision downloads: paths, symbol lists, HTTP fetch, CLI parsing."""
+
 import os, sys, re, shutil
 import json
 from pathlib import Path
